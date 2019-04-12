@@ -7,11 +7,7 @@
 ## afterthat                    <pre><code>python manage.py migrate</code></pre>
 ## and                          <pre><code>python manage.py migrate --run-syncdb</code></pre>
 ## Run the local server by <pre><code>python manage.py runserver</code></pre>
-## For testing purpose <br>
-    Admin name: zilani
-    password: django12
-
-* or create a superuser by: <pre><code>python manage.py createsuperuser</code></pre>
+## Create a superuser by: <pre><code>python manage.py createsuperuser</code></pre>
 
 ### Register a user by this endpoint ...
 <pre><code>http://127.0.0.1:8000/api/vi/rest-auth/registration/</code></pre>
